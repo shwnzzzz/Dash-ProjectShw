@@ -1,72 +1,141 @@
-# DASH — Site de divulgação e download
+# 📱📊 ⎯ DASH 2.8.2
 
-Repositório: https://github.com/shwnzzzz/Dash-ProjectShw
+### Sua vida organizada. Tudo em um só lugar.
 
-Site independente para apresentar o aplicativo e baixar o APK Android. O layout se adapta a celulares, tablets e computadores. Inclui capturas reais, apresentação das funções, animações, carrossel automático de seis segundos com pausa e navegação manual pelas imagens e orientações de instalação.
+O **DASH** é um aplicativo de gerenciamento pessoal desenvolvido para proporcionar uma experiência moderna, intuitiva e completa na organização do dia a dia. Com uma interface minimalista em tons de preto, branco e cinza, a plataforma permite gerenciar compromissos, tarefas, finanças, contas a pagar, metas e eventos importantes, reunindo tudo em um único ambiente digital.
+Disponível como projeto multiplataforma para **Android, Windows e Web**, futuramente para **iOS**, o DASH combina organização, praticidade e segurança em uma experiência personalizada.
 
-## Publicar no GitHub Pages
+## 📱 Demonstração
+🔗 **Acesse o projeto online para Download:** https://shwnzzzz.github.io/Dash-ProjectShw/
 
-1. Use o clone local deste repositório ou extraia o pacote atualizado do site.
-2. Envie **o conteúdo da pasta `DASH-site`** para a raiz do seu repositório. O `index.html` deve ficar na raiz, junto de `styles.css`, `site.js`, `assets` e `downloads`. Não envie apenas o ZIP.
-3. No repositório, abra **Settings → Pages**.
-4. Em **Source**, escolha **Deploy from a branch**.
-5. Selecione **main** e **/(root)** e clique em **Save**.
-6. Aguarde o GitHub mostrar o endereço do site.
+<img src="DASH.png" width="80%">
 
-No GitHub Free, use um repositório público para habilitar Pages. O pacote usa caminhos relativos, por isso funciona tanto em um domínio próprio quanto no endereço com nome do repositório. Não depende da hospedagem privada anterior e não pede login do ChatGPT.
+## ✨ Funcionalidades
+- 📊 Dashboard com visão geral da vida pessoal e financeira.
+- 📅 Agenda interativa com calendário de compromissos.
+- ✅ Gerenciamento de tarefas com prioridades e prazos.
+- 💰 Controle financeiro de receitas e despesas.
+- 💳 Organização de contas a pagar e pagamentos futuros.
+- 🔄 Gerenciamento de contas recorrentes.
+- 🎯 Acompanhamento de metas pessoais e financeiras.
+- 📈 Gráficos financeiros e resumo anual.
+- 🧾 Armazenamento local de comprovantes em PDF.
+- 🔔 Notificações de tarefas, eventos e vencimentos.
+- 🔐 Autenticação por e-mail e senha.
+- 👆 Acesso por biometria, Face ID ou Touch ID em dispositivos compatíveis.
+- 👤 Perfil personalizado com nome e foto.
+- 🌙 Alternância entre Dark Mode e White Mode.
+- 📱 Interface responsiva e adaptada para dispositivos móveis.
+- 💾 Armazenamento local com separação dos dados por cadastro.
+- ⚡ Navegação intuitiva e gerenciamento simplificado.
 
-Referência: [configurar a publicação no GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+## 🆕 Novidades da versão 2.8.2
+A versão **2.8.2** apresenta melhorias de autenticação, organização financeira, notificações e experiência do usuário.
 
-## Enviar pelo Git
+- 🔐 Validação de acesso por e-mail e senha correspondentes.
+- 👆 Autorização individual para autenticação biométrica.
+- 📱 Tela de desbloqueio ao reabrir o aplicativo.
+- 📅 Organização das contas por mês e ano de vencimento.
+- 💳 Registro de pagamentos e gerenciamento de cobranças recorrentes.
+- 🔄 Geração automática da próxima cobrança após o pagamento.
+- 🧾 Preservação de comprovantes e históricos financeiros.
+- 🔔 Configuração personalizada de lembretes e notificações.
+- 👤 Melhorias no gerenciamento da foto de perfil.
+- 💾 Preservação dos dados locais durante atualizações compatíveis.
+- 🎨 Aprimoramentos visuais e de usabilidade.
 
-Com esta pasta conectada ao repositório, abra o terminal aqui e execute:
+## 🎨 Identidade Visual
+O DASH utiliza uma identidade visual moderna, sofisticada e minimalista, inspirada em dashboards de produtividade e plataformas de gerenciamento pessoal.
 
-```sh
-npm run check
-git add --all
-git commit -m "Atualizar site e download do DASH"
-git push origin main
-```
+- **Cores predominantes:** Preto, branco e cinza.
+- **Dark Mode:** Interface escura com elementos de alto contraste.
+- **White Mode:** Interface clara e suave, com controles em azul.
+- **Indicadores financeiros:** Verde para entradas e tomato para despesas.
+- **Tipografia:** Lato.
+- **Estilo:** Minimalista, moderno e funcional.
+- **Design:** Interface mobile em coluna única, com componentes organizados.
+- **Experiência:** Navegação intuitiva, segura e personalizada.
 
-O Git precisa estar autenticado na sua conta. Também é possível abrir esta pasta no GitHub Desktop e usar **Commit** e **Push origin**.
+## 🔐 Segurança e Privacidade
+O DASH prioriza a privacidade do usuário por meio do armazenamento local das informações e da autenticação individual de cada cadastro.
 
-Se o envio pelo navegador falhar, use o Git como acima. Não envie o ZIP nem um APK completo pela tela de edição de arquivos. Caso opte por **Add file → Upload files**, envie o conteúdo da pasta, incluindo `downloads/` com todas as partes. Não use Git LFS para estes arquivos: o download do site precisa receber os bytes reais de cada parte.
+- 🔒 Verificação de senhas com PBKDF2-HMAC-SHA256.
+- 🛡️ Salt aleatório e 600.000 iterações na derivação de senhas.
+- 👆 Autenticação biométrica utilizando os recursos nativos do dispositivo.
+- 📂 Separação dos registros entre diferentes cadastros locais.
+- 💾 Armazenamento das informações no próprio dispositivo.
+- ☁️ Sem sincronização automática com serviços em nuvem.
+- 🔑 Autorização biométrica protegida pelos mecanismos do sistema operacional.
 
-## O que está incluído
+**Observação:** Os registros locais não são criptografados em disco. A exclusão dos dados do aplicativo ou navegador pode remover permanentemente as informações armazenadas. O cadastro não possui verificação de e-mail nem recuperação de senha por e-mail.
 
-- `index.html`: página de apresentação e download.
-- `baixar.html`: a mesma página no caminho `/baixar.html`.
-- `styles.css`: estilos para mobile e PC, apenas em preto, branco e cinza.
-- `site.js`: navegação pelas capturas, ampliação das imagens, animações e download.
-- `assets/`: fonte Lato com licença, ícone e quatro capturas do aplicativo.
-- `downloads/`: APK 2.8.2 em partes de até 4 MiB, configuração do download e checksum.
-- `.nojekyll`: mantém os arquivos estáticos sem processamento pelo Jekyll.
-- `scripts/`: prévia local e atualização dos arquivos do APK.
+## 🔔 Notificações Inteligentes
+O aplicativo oferece um sistema de lembretes configuráveis para ajudar o usuário a acompanhar suas responsabilidades.
 
-O APK já está incluído. Não é preciso configurar um link externo. Ao baixar, a página reúne as partes, verifica o SHA-256 e entrega um único arquivo `.apk`. Cada parte tem no máximo 4 MiB. O APK final continua com 42 MB e é conferido pelo SHA-256 antes do download.
+- ✅ Tarefas: lembrete padrão de 15 minutos.
+- 💳 Contas: lembrete padrão de um dia.
+- 📅 Eventos: lembrete padrão de 30 minutos.
+- ⏰ Personalização de horários e antecedência.
+- 🔄 Atualização automática dos agendamentos após alterações.
+- 📱 Notificações locais em Android e iOS.
+- 🔔 Central interna de avisos nas versões Web e Windows.
 
-Não há links para iPhone, Windows ou código-fonte na página. Este pacote é apenas o site, sem o código do aplicativo, dados de cadastros ou chaves de assinatura. As capturas mostram registros de exemplo; novos cadastros do aplicativo começam vazios.
+O sistema mantém até **60 notificações futuras** agendadas localmente, renovando a fila durante a utilização do aplicativo.
 
-## Conferir no computador
+## 📲 Plataformas e Instalação
 
-Requer Node.js 20 ou superior; nenhuma dependência precisa ser instalada.
+### 🤖 Android
+- Arquivo: `DASH-2.8.2-Android.apk`
+- Compatibilidade: Android 7 ou superior.
+- Arquitetura: dispositivos de 64 bits.
+- Autenticação biométrica em aparelhos compatíveis.
+- Notificações locais e gerenciamento de lembretes.
 
-```sh
-npm run preview
-```
+## 🛠️ Tecnologias utilizadas
+- React Native
+- Expo SDK 55
+- TypeScript
+- JavaScript
+- Electron
+- Node.js
+- pnpm
+- HTML5
+- CSS3
+- PBKDF2-HMAC-SHA256
+- APIs nativas de biometria
+- Armazenamento local
+- Sistema de notificações locais
 
-Abra o endereço exibido no terminal. Evite abrir o `index.html` diretamente como arquivo: o download precisa de um servidor HTTP local ou hospedagem HTTPS. Na hospedagem final, use HTTPS para a verificação do APK pelo navegador.
+## 🧪 Testes e Qualidade
+O DASH conta com **55 testes automatizados**, abrangendo funcionalidades essenciais para garantir a confiabilidade do aplicativo.
+Entre os recursos testados estão:
 
-## Atualizar o aplicativo oferecido
+- Autenticação por e-mail e senha.
+- Autorização biométrica individual.
+- Isolamento de dados entre cadastros.
+- Cálculos e registros financeiros.
+- Contas recorrentes e vencimentos.
+- Organização de pagamentos.
+- Preservação de comprovantes.
+- Gerenciamento de tarefas e eventos.
+- Datas, fusos horários e recorrências.
+- Configurações de notificações.
+- Preservação de informações durante atualizações.
+- Inicialização de novos cadastros.
 
-Com uma nova versão de APK já assinada, execute:
+## 🎯 Objetivo do projeto
+O DASH foi desenvolvido como um projeto de aplicativo multiplataforma, com o objetivo de aplicar conhecimentos de desenvolvimento de software, programação, gerenciamento de dados, autenticação, interfaces interativas e princípios de UI/UX Design. O projeto busca demonstrar como a tecnologia pode simplificar a organização pessoal, permitindo que usuários gerenciem suas atividades, compromissos e finanças de maneira prática, centralizada e eficiente. Além disso, o DASH representa a aplicação de conceitos de desenvolvimento mobile e desktop, integração com recursos nativos dos dispositivos, segurança de autenticação e construção de experiências digitais modernas e funcionais.
 
-```sh
-node scripts/update-apk.mjs "CAMINHO/DASH-2.8.2-Android.apk" 2.8.2
-```
+## 👨‍💻 Desenvolvedor
 
-O script atualiza as partes, o hash e a versão exibida no HTML. Depois envie os arquivos alterados ao repositório. Use a mesma assinatura do aplicativo anterior para preservar a possibilidade de atualizar por cima da instalação existente.
+**ShwDevs** Desenvolvimento de Software | UI/UX Design | Desenvolvimento Mobile
 
-## Personalizar
+---
 
-Edite os textos em `index.html` e os textos das abas em `site.js`. Troque as imagens em `assets/screens/`, mantendo os nomes dos arquivos ou ajustando as referências. A fonte Lato é fornecida localmente; a página não precisa buscar fontes no Google.
+<p align="center">
+  Desenvolvido com 🖤 por <strong>ShwDevs</strong>
+  <br>
+  <strong>DASH — Sua rotina, suas metas, seu controle.</strong>
+  <br>
+  <strong>Versão 2.8.2</strong>
+</p>
