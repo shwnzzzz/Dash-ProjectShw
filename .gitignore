@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+node_modules/
+
+# Instaladores completos e pacotes não entram no site
+*.apk
+*.zip
+*.jks
+*.keystore
+.env
+.env.*

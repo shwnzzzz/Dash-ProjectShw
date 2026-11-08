@@ -1,0 +1,48 @@
+{
+  "version": "2.8.2",
+  "filename": "DASH-2.8.2-Android.apk",
+  "size": 41704429,
+  "sha256": "4adea72a8dc30a76672ff0e185a209a25abebb6c5bcacde2a5dbd252d761fa75",
+  "parts": [
+    {
+      "url": "./dash-2.8.2-android-01.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-02.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-03.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-04.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-05.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-06.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-07.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-08.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-09.part",
+      "size": 4194304
+    },
+    {
+      "url": "./dash-2.8.2-android-10.part",
+      "size": 3955693
+    }
+  ]
+}

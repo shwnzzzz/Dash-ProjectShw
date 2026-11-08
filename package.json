@@ -1,0 +1,14 @@
+{
+  "name": "dash-download-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "preview": "node scripts/preview.mjs",
+    "check": "node scripts/check.mjs",
+    "apk:update": "node scripts/update-apk.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
